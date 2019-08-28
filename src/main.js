@@ -10,6 +10,9 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
+// 引入echars
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 // 引入自己的全局的css
 import '@/assets/css/global.scss'

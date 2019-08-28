@@ -1,18 +1,21 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+      <treeChar/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+  import treeChar from "@/components/echars/treeChar";
 
-export default {
-  name: "home",
-  components: {
-    HelloWorld
-  }
-};
+  export default {
+    name: "home",
+    components: {
+      treeChar
+    },
+    data(){
+      return{
+
+      }
+    }
+  };
 </script>
